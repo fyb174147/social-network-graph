@@ -1,0 +1,38 @@
+# Python cache & environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE, OS & environment files
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Reports & documentation artifacts (keep locally, do not push)
+report_latex/
+report_overleaf.zip
+*.pdf
+*.zip
+*.docx
+*.aux
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Generated datasets, caches, exports & figures
+data/
+figures/
